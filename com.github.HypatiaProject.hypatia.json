@@ -31,8 +31,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/HypatiaProject/hypatia/archive/refs/tags/0.1.0.tar.gz",
-                    "sha256" : "908310fc243065736bf77a9d64c40f4aafc0d3e60f896ffafc1e84e767db2da2"
+                    "url" : "https://github.com/HypatiaProject/hypatia/archive/refs/tags/0.1.1.tar.gz",
+                    "sha256" : "837bcd387d71612c9978971ee1446b603ff9632605cb6e1e856d4c254c1b8d2f"
                 }
             ]
         }
