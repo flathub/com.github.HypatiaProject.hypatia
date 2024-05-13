@@ -1,7 +1,7 @@
 {
     "app-id" : "com.github.HypatiaProject.hypatia",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "hypatia",
     "finish-args" : [
@@ -13,9 +13,12 @@
     ],
     "cleanup" : [
         "/include",
+        "/lib/girepository-1.0",
         "/lib/pkgconfig",
         "/man",
         "/share/doc",
+        "/share/gir-1.0",
+        "/share/glib-2.0",
         "/share/gtk-doc",
         "/share/man",
         "/share/pkgconfig",
@@ -24,6 +27,7 @@
         "*.a"
     ],
     "modules" : [
+        "shared-modules/libsoup/libsoup-2.4.json",
         {
             "name" : "hypatia",
             "builddir" : true,
@@ -33,6 +37,10 @@
                     "type" : "archive",
                     "url" : "https://github.com/HypatiaProject/hypatia/archive/refs/tags/0.1.1.tar.gz",
                     "sha256" : "837bcd387d71612c9978971ee1446b603ff9632605cb6e1e856d4c254c1b8d2f"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "fix_appdata.patch"
                 }
             ]
         }

@@ -1,0 +1,35 @@
+diff --git a/data/com.github.HypatiaProject.hypatia.appdata.xml.in b/data/com.github.HypatiaProject.hypatia.appdata.xml.in
+index bace45b..aae431a 100644
+--- a/data/com.github.HypatiaProject.hypatia.appdata.xml.in
++++ b/data/com.github.HypatiaProject.hypatia.appdata.xml.in
+@@ -5,12 +5,15 @@
+   <metadata_license>CC0</metadata_license>
+   <project_license>GPL-3.0+</project_license>
+   <name>Hypatia</name>
+-  <summary>A research helper tool that provides context and information about
+-    interesting topics.
+-  </summary>
++  <summary>A research helper tool that provides context and information about interesting topics</summary>
+   <developer_name>Nathan Dyer and Hypatia Project Contributors</developer_name>
++  <developer id="io.github.hypatiaproject">
++    <name>Nathan Dyer and Hypatia Project Contributors</name>
++  </developer>
++
+   <url type="homepage">https://github.com/HypatiaProject/hypatia</url>
+   <url type="bugtracker">https://github.com/HypatiaProject/hypatia/issues</url>
++  <url type="vcs-browser">https://github.com/HypatiaProject/hypatia</url>
+ 
+   <screenshots>
+     <screenshot type="default">
+diff --git a/data/com.github.HypatiaProject.hypatia.desktop.in b/data/com.github.HypatiaProject.hypatia.desktop.in
+index 4eacdc6..e1cc849 100644
+--- a/data/com.github.HypatiaProject.hypatia.desktop.in
++++ b/data/com.github.HypatiaProject.hypatia.desktop.in
+@@ -4,5 +4,6 @@ Exec=hypatia
+ Icon=com.github.HypatiaProject.hypatia
+ Terminal=false
+ Type=Application
+-Categories=GTK;
++Categories=Utility;
++Keywords=Research;Wikipedia;Wiktionary;definition;explanation;
+ StartupNotify=true
