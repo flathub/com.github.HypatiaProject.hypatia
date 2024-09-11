@@ -35,8 +35,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/HypatiaProject/hypatia/archive/refs/tags/0.1.1.tar.gz",
-                    "sha256" : "837bcd387d71612c9978971ee1446b603ff9632605cb6e1e856d4c254c1b8d2f"
+                    "url" : "https://codeberg.org/nathandyer/Hypatia/archive/0.1.2.tar.gz",
+                    "sha256" : "7b015329ef67bb8a02269baf027f2ba6aca0c00d8d6a2981d2c3a8b98ae0557c"
                 },
                 {
                     "type" : "patch",
